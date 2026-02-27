@@ -1,0 +1,551 @@
+[
+  {
+    "call_id": "CALL-0001",
+    "category": "tech_support",
+    "summary": "Customer reported internet dropping every hour. Technician scheduled for tomorrow 10am-12pm to resolve fiber signal loss. No charge for the service.",
+    "customer_sentiment": "negative",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Technician scheduled for tomorrow 10am-12pm"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [
+        "2026-02-28 10:00:00",
+        "2026-02-28 12:00:00"
+      ],
+      "dates": [
+        "2026-02-28"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0002",
+    "category": "billing",
+    "summary": "Billing issue: customer charged twice, pending reversal in 3-5 business days, ticket raised with reference number BRN-55219.",
+    "customer_sentiment": "neutral",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "ticket_created",
+        "details": "Ticket created with reference number BRN-55219"
+      },
+      {
+        "type": "email_sent",
+        "details": "Email sent to customer with reference number BRN-55219"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [
+        "BRN-55219"
+      ],
+      "plan_prices_inr": [],
+      "time_windows": [
+        "3-5 business days"
+      ],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0003",
+    "category": "tech_support",
+    "summary": "Customer reported discrepancy in internet speed, agent assisted by checking Wi-Fi speeds and shipping a cable for testing.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Refreshed provisioning and shipped a cable for testing"
+      },
+      {
+        "type": "email_sent",
+        "details": "Email sent to customer with instructions to restart modem and router"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0004",
+    "category": "cancellation",
+    "summary": "Customer wants to cancel connection due to moving to another city. Disconnection initiated. No charges expected.",
+    "customer_sentiment": "negative",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "disconnection_initiated",
+        "details": "Equipment pickup scheduled for 3 days"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "customer_churn_risk"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": [
+        "2026-03-06"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0005",
+    "category": "tech_support",
+    "summary": "The customer reported a missed appointment. The agent apologized, rescheduled the visit for today 6pm-8pm, and applied a 1-day service credit.",
+    "customer_sentiment": "negative",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Rescheduled visit for today 6pm-8pm"
+      },
+      {
+        "type": "credit_applied",
+        "details": "1-day service credit applied"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [
+        "6pm-8pm"
+      ],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0006",
+    "category": "tech_support",
+    "summary": "Customer forgot Wi-Fi password. Agent provided solution to check the default password on the router sticker. Issue resolved.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Provided solution to customer"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 1.0
+  },
+  {
+    "call_id": "CALL-0007",
+    "category": "tech_support",
+    "summary": "Known outage in customer's area, credit offered for inconvenience, updates sent.",
+    "customer_sentiment": "negative",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "credit_applied",
+        "details": "Credit applied for 2‑day"
+      },
+      {
+        "type": "email_sent",
+        "details": "Updates sent to SMS"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.8
+  },
+  {
+    "call_id": "CALL-0008",
+    "category": "plan_change",
+    "summary": "Plan upgrade to 500 Mbps initiated. Key conflict: router compatibility resolved. Final resolution: plan activated.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "plan_activated",
+        "details": "Plan upgraded to 500 Mbps"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [
+        500.0
+      ],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 1.0
+  },
+  {
+    "call_id": "CALL-0009",
+    "category": "tech_support",
+    "summary": "Customer experiencing no signal due to unplugged power adapter. Issue resolved after plugging it in and waiting 2 minutes.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "None required"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 1.0
+  },
+  {
+    "call_id": "CALL-0010",
+    "category": "privacy",
+    "summary": "Customer reported receiving spam calls after sharing their number on our site. Escalated to security team. Requested written confirmation.",
+    "customer_sentiment": "negative",
+    "resolution_status": "pending",
+    "actions_taken": [
+      {
+        "type": "email_sent",
+        "details": "Email sent with case ID SEC-90021 and privacy policy link"
+      }
+    ],
+    "followups_required": [
+      {
+        "owner": "security_team",
+        "due": "2026-03-02",
+        "details": "Follow up with customer to confirm receipt of email and resolution"
+      }
+    ],
+    "risk_flags": [
+      "possible_privacy_issue",
+      "customer_churn_risk"
+    ],
+    "entities": {
+      "case_ids": [
+        "SEC-90021"
+      ],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 0.8
+  },
+  {
+    "call_id": "CALL-0011",
+    "category": "tech_support",
+    "summary": "Wi-Fi signal weak in bedroom. Customer requested a mesh extender. Final resolution pending customer decision.",
+    "customer_sentiment": "neutral",
+    "resolution_status": "pending",
+    "actions_taken": [
+      {
+        "type": "recommendation_made",
+        "details": "Mesh extender recommended for weak Wi-Fi signal in bedroom."
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 0.8
+  },
+  {
+    "call_id": "CALL-0012",
+    "category": "billing",
+    "summary": "Billing dispute over late fee; late fee waived as a courtesy.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "credit_applied",
+        "details": "Waived late fee of ₹100 plus taxes"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [
+        "699"
+      ],
+      "time_windows": [],
+      "dates": [
+        "2026-03-05",
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0013",
+    "category": "plan_change",
+    "summary": "Contact number update request due to address change at 123 Maple Street, Apt 4B.. Confirmation from SMS expected shortly.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "plan_activated",
+        "details": "Updated contact number for customer"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0014",
+    "category": "tech_support",
+    "summary": "Internet outage due to physical line break caused by construction. Field team dispatched to resolve issue. Estimated resolution time 4-6 hours.",
+    "customer_sentiment": "negative",
+    "resolution_status": "pending",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Field team dispatched to resolve issue."
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [
+        "TKT-8821"
+      ],
+      "plan_prices_inr": [],
+      "time_windows": [
+        "4 to 6 hours"
+      ],
+      "dates": []
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0015",
+    "category": "billing",
+    "summary": "Customer inquired about paying their bill over the phone, but was directed to use the app or automated system for security reasons.",
+    "customer_sentiment": "neutral",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "transfer",
+        "details": "Customer was transferred to the automated system for bill payment."
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 0.8
+  },
+  {
+    "call_id": "CALL-0016",
+    "category": "tech_support",
+    "summary": "Customer set up port forwarding for gaming. Key conflict: customer needed assistance with router login. Final resolution: customer successfully set up port forwarding.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_guided",
+        "details": "Guided customer through router login and port forwarding setup"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 1.0
+  },
+  {
+    "call_id": "CALL-0017",
+    "category": "tech_support",
+    "summary": "Customer's smart TV wouldn't connect to Wi-Fi, but phone did. Agent helped customer switch to 2.4GHz band. TV now connects successfully.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Split Wi-Fi bands to resolve TV connectivity issue"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0018",
+    "category": "plan_change",
+    "summary": "Customer is moving and wants to transfer their service to a new house. The transfer fee is ₹500. The transfer is scheduled for the 20th.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "plan_activated",
+        "details": "Transfer of service to new house scheduled for the 20th"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [
+        0.0
+      ],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.8
+  },
+  {
+    "call_id": "CALL-0019",
+    "category": "tech_support",
+    "summary": "Customer reported high ping in Valorant on today. Agent identified bottleneck and rerouted traffic. Customer restarted in 5 minutes.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "technician_scheduled",
+        "details": "Rerouted traffic to resolve high ping issue"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": [
+        "2026-02-27"
+      ]
+    },
+    "confidence": 0.9
+  },
+  {
+    "call_id": "CALL-0020",
+    "category": "billing",
+    "summary": "GST invoice request for business 'Tech Solutions' resolved with invoice download from portal.",
+    "customer_sentiment": "positive",
+    "resolution_status": "resolved",
+    "actions_taken": [
+      {
+        "type": "invoice_revised",
+        "details": "GST invoice added for business 'Tech Solutions' with ID 22AAAAA0000A1Z5"
+      }
+    ],
+    "followups_required": [],
+    "risk_flags": [
+      "none"
+    ],
+    "entities": {
+      "case_ids": [
+        "22AAAAA0000A1Z5"
+      ],
+      "plan_prices_inr": [],
+      "time_windows": [],
+      "dates": []
+    },
+    "confidence": 1.0
+  }
+]
