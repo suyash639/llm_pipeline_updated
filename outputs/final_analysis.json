@@ -525,13 +525,13 @@
   {
     "call_id": "CALL-0020",
     "category": "billing",
-    "summary": "GST invoice request for business 'Tech Solutions' resolved with invoice download from portal.",
+    "summary": "GST invoice request for business 'Tech Solutions' resolved with invoice added to portal.",
     "customer_sentiment": "positive",
     "resolution_status": "resolved",
     "actions_taken": [
       {
-        "type": "invoice_revised",
-        "details": "GST invoice added for business 'Tech Solutions' with ID 22AAAAA0000A1Z5"
+        "type": "invoice_added",
+        "details": "GST invoice added to portal for customer's business"
       }
     ],
     "followups_required": [],
@@ -539,9 +539,7 @@
       "none"
     ],
     "entities": {
-      "case_ids": [
-        "22AAAAA0000A1Z5"
-      ],
+      "case_ids": [],
       "plan_prices_inr": [],
       "time_windows": [],
       "dates": []
