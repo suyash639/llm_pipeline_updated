@@ -1,0 +1,8 @@
+openai
+pydantic
+python-dotenv
+loguru
+spacy
+tenacity
+tqdm
+groq

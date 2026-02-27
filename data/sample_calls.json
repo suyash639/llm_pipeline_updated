@@ -1,0 +1,162 @@
+[
+  {
+    "call_id": "CALL-0001",
+    "agent_id": "AG-12",
+    "customer_id": "CUST-771",
+    "date": "2026-02-01",
+    "duration_sec": 312,
+    "transcript": "Agent: Hi, thanks for calling BrightNet. How can I help?\nCustomer: My internet keeps dropping every hour.\nAgent: Sorry about that. Let me run a line test. Are the modem lights blinking?\nCustomer: Yes, the LOS light is red sometimes.\nAgent: That indicates fiber signal loss. I\u2019ll schedule a technician for tomorrow 10am to 12pm.\nCustomer: Please do. Also will I be charged?\nAgent: No, this is covered. You\u2019ll get an SMS confirmation."
+  },
+  {
+    "call_id": "CALL-0002",
+    "agent_id": "AG-07",
+    "customer_id": "CUST-102",
+    "date": "2026-02-02",
+    "duration_sec": 144,
+    "transcript": "Agent: Hello, this is BrightNet billing support.\nCustomer: I was charged twice this month.\nAgent: I can help. I see two payments, one via UPI and one via card. The card payment is pending reversal.\nCustomer: When will it be reversed?\nAgent: Usually 3 to 5 business days. I\u2019ll raise a ticket and email you the reference number: BRN-55219."
+  },
+  {
+    "call_id": "CALL-0003",
+    "agent_id": "AG-07",
+    "customer_id": "CUST-556",
+    "date": "2026-02-03",
+    "duration_sec": 421,
+    "transcript": "Agent: Hi! How can I assist?\nCustomer: Your website says 200 Mbps but I\u2019m getting 40.\nAgent: Let\u2019s check. Are you on Wi\u2011Fi or Ethernet?\nCustomer: Wi\u2011Fi.\nAgent: Speeds can be lower on Wi\u2011Fi. Please test using Ethernet.\nCustomer: I can\u2019t. I don\u2019t have a cable.\nAgent: I can ship one free. Also I\u2019ll refresh your provisioning.\nCustomer: Okay.\nAgent: Done. Please restart modem and router.\nCustomer: Thanks."
+  },
+  {
+    "call_id": "CALL-0004",
+    "agent_id": "AG-18",
+    "customer_id": "CUST-889",
+    "date": "2026-02-03",
+    "duration_sec": 203,
+    "transcript": "Agent: Welcome to BrightNet.\nCustomer: I want to cancel my connection.\nAgent: I\u2019m sorry to hear that. May I know the reason?\nCustomer: Moving to another city.\nAgent: Understood. I\u2019ll initiate disconnection. Equipment pickup will happen in 3 days.\nCustomer: Will there be any charges?\nAgent: Only if there\u2019s outstanding balance. Your account is clear."
+  },
+  {
+    "call_id": "CALL-0005",
+    "agent_id": "AG-12",
+    "customer_id": "CUST-771",
+    "date": "2026-02-04",
+    "duration_sec": 388,
+    "transcript": "Agent: Hi, BrightNet tech support.\nCustomer: The technician didn\u2019t come today.\nAgent: I apologize. Let me check. I see the visit was rescheduled automatically.\nCustomer: Nobody told me.\nAgent: You\u2019re right. I\u2019ll prioritize and book for today 6pm to 8pm and apply a 1\u2011day service credit.\nCustomer: Okay."
+  },
+  {
+    "call_id": "CALL-0006",
+    "agent_id": "AG-05",
+    "customer_id": "CUST-333",
+    "date": "2026-02-05",
+    "duration_sec": 256,
+    "transcript": "Agent: Hello.\nCustomer: I forgot my Wi\u2011Fi password.\nAgent: No worries. Are you using the BrightNet app?\nCustomer: No.\nAgent: Please check the sticker under the router. The default password is printed there.\nCustomer: Found it. Thanks."
+  },
+  {
+    "call_id": "CALL-0007",
+    "agent_id": "AG-18",
+    "customer_id": "CUST-901",
+    "date": "2026-02-06",
+    "duration_sec": 534,
+    "transcript": "Agent: Hi, support here.\nCustomer: My connection is slow and the app shows \u2018Outage\u2019.\nAgent: There is a known outage in your area. ETA is 2 hours.\nCustomer: I need internet for work.\nAgent: I understand. I can offer a 2\u2011day credit.\nCustomer: Fine.\nAgent: I\u2019ll also send SMS updates."
+  },
+  {
+    "call_id": "CALL-0008",
+    "agent_id": "AG-09",
+    "customer_id": "CUST-444",
+    "date": "2026-02-06",
+    "duration_sec": 301,
+    "transcript": "Agent: Billing team, how can I help?\nCustomer: I want to upgrade to 500 Mbps.\nAgent: Great. The plan costs \u20b9999/month. You\u2019re currently on \u20b9699.\nCustomer: Do I need a new router?\nAgent: Your router supports it. I can activate immediately.\nCustomer: Do it.\nAgent: Activated. It will reflect in 15 minutes."
+  },
+  {
+    "call_id": "CALL-0009",
+    "agent_id": "AG-05",
+    "customer_id": "CUST-222",
+    "date": "2026-02-07",
+    "duration_sec": 178,
+    "transcript": "Agent: Hello, BrightNet.\nCustomer: I\u2019m getting no signal and the modem has no power.\nAgent: Is the power adapter plugged in?\nCustomer: Oh. It wasn\u2019t. Sorry.\nAgent: No problem. Please plug it in and wait 2 minutes.\nCustomer: It\u2019s back. Thanks."
+  },
+  {
+    "call_id": "CALL-0010",
+    "agent_id": "AG-09",
+    "customer_id": "CUST-777",
+    "date": "2026-02-07",
+    "duration_sec": 610,
+    "transcript": "Agent: Hi.\nCustomer: I\u2019m receiving spam calls after I shared my number on your site.\nAgent: I\u2019m sorry. We take privacy seriously. I\u2019ll escalate to our security team.\nCustomer: I want confirmation in writing.\nAgent: I will email you the case ID SEC-90021 and our privacy policy link."
+  },
+  {
+    "call_id": "CALL-0011",
+    "agent_id": "AG-12",
+    "customer_id": "CUST-112",
+    "date": "2026-02-08",
+    "duration_sec": 245,
+    "transcript": "Agent: BrightNet support, how can I help?\nCustomer: My Wi-Fi signal is weak in the bedroom.\nAgent: I see. How far is the bedroom from the router?\nCustomer: About 30 feet and two walls. My email is j.smith@email.com if you need to send a manual.\nAgent: Thanks, John. I recommend a mesh extender. I can ship one for a monthly fee of ₹150.\nCustomer: Let me think about it. Thanks."
+  },
+  {
+    "call_id": "CALL-0012",
+    "agent_id": "AG-07",
+    "customer_id": "CUST-405",
+    "date": "2026-02-08",
+    "duration_sec": 312,
+    "transcript": "Agent: Hello, billing department.\nCustomer: Why is my bill ₹850? My plan is ₹699.\nAgent: Let me check. It looks like there's a one-time late fee of ₹100 plus taxes.\nCustomer: But I paid on the 5th!\nAgent: The due date was the 2nd. I can waive it this once as a courtesy.\nCustomer: I appreciate that."
+  },
+  {
+    "call_id": "CALL-0013",
+    "agent_id": "AG-18",
+    "customer_id": "CUST-992",
+    "date": "2026-02-09",
+    "duration_sec": 180,
+    "transcript": "Agent: BrightNet, how can I assist?\nCustomer: I need to update my contact number to 98765-43210.\nAgent: I can update that for you. Verify your current address please?\nCustomer: 123 Maple Street, Apt 4B.\nAgent: Updated. You'll receive a confirmation SMS shortly.\nCustomer: Perfect."
+  },
+  {
+    "call_id": "CALL-0014",
+    "agent_id": "AG-05",
+    "customer_id": "CUST-210",
+    "date": "2026-02-09",
+    "duration_sec": 450,
+    "transcript": "Agent: Tech support, this is Mike.\nCustomer: My internet is completely out. The PON light is blinking red.\nAgent: That sounds like a physical line break outside. Is there construction nearby?\nCustomer: Yes, they are digging up the road.\nAgent: I'll dispatch a field team. Ticket number is TKT-8821.\nCustomer: How long?\nAgent: Usually 4 to 6 hours."
+  },
+  {
+    "call_id": "CALL-0015",
+    "agent_id": "AG-09",
+    "customer_id": "CUST-665",
+    "date": "2026-02-10",
+    "duration_sec": 120,
+    "transcript": "Agent: BrightNet billing.\nCustomer: Can I pay my bill over the phone?\nAgent: For security, please use our app or the automated IVR. Shall I transfer you?\nCustomer: Yes, please.\nAgent: Transferring now."
+  },
+  {
+    "call_id": "CALL-0016",
+    "agent_id": "AG-12",
+    "customer_id": "CUST-551",
+    "date": "2026-02-10",
+    "duration_sec": 510,
+    "transcript": "Agent: Hello, how can I help?\nCustomer: I'm trying to set up port forwarding for gaming.\nAgent: I can guide you. Are you logged into the router admin page?\nCustomer: Yes, 192.168.1.1. What's the default login?\nAgent: It's 'admin' for both. Check the 'Advanced' tab under 'NAT'.\nCustomer: Got it, working now."
+  },
+  {
+    "call_id": "CALL-0017",
+    "agent_id": "AG-07",
+    "customer_id": "CUST-881",
+    "date": "2026-02-11",
+    "duration_sec": 290,
+    "transcript": "Agent: BrightNet support.\nCustomer: My smart TV won't connect but my phone does.\nAgent: Try forgetting the network on the TV and reconnecting.\nCustomer: I did that, it keeps saying 'Incorrect Password'.\nAgent: Ensure you are using the 2.4GHz band for older TVs. I'll split your Wi-Fi bands now.\nCustomer: Okay, it sees the new 'BrightNet_2G' name now. It works!"
+  },
+  {
+    "call_id": "CALL-0018",
+    "agent_id": "AG-18",
+    "customer_id": "CUST-334",
+    "date": "2026-02-11",
+    "duration_sec": 195,
+    "transcript": "Agent: Welcome to BrightNet.\nCustomer: I'm moving. Can I transfer my service to my new house?\nAgent: What is the new address?\nCustomer: 456 Oak Lane, Zip 56001.\nAgent: Yes, we have coverage there. The transfer fee is ₹500.\nCustomer: That's fine. Set it for the 20th."
+  },
+  {
+    "call_id": "CALL-0019",
+    "agent_id": "AG-05",
+    "customer_id": "CUST-772",
+    "date": "2026-02-12",
+    "duration_sec": 340,
+    "transcript": "Agent: Tech support.\nCustomer: My ping is very high in Valorant today. Over 200ms.\nAgent: Let's run a traceroute. What's your IP?\nCustomer: It is 103.22.45.12.\nAgent: I see a bottleneck at a peering point. I'll reroute your traffic. Restart in 5 minutes.\nCustomer: Thanks, hope it helps."
+  },
+  {
+    "call_id": "CALL-0020",
+    "agent_id": "AG-09",
+    "customer_id": "CUST-119",
+    "date": "2026-02-12",
+    "duration_sec": 415,
+    "transcript": "Agent: Billing support.\nCustomer: I need a GST invoice for my business.\nAgent: Certainly. Please provide your GSTIN.\nCustomer: It's 22AAAAA0000A1Z5.\nAgent: Added. You can download the revised invoice from the portal.\nCustomer: Will it show my business name 'Tech Solutions'?\nAgent: Yes, it will."
+  }
+]
